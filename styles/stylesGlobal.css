@@ -8,6 +8,8 @@ body{
     font-family: 'arial';
 }
 
+/* header*/
+
 .header-inner-content{
     max-width: 1300px;
     margin-left: auto;
@@ -27,6 +29,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
 }
 
 .logo {
@@ -134,3 +137,49 @@ header {
     width: 115%;
 
 }
+
+
+/*Media Queries*/
+
+@media (max-width: 800px){
+    .logo {
+        font-size: 1.2rem;
+    }
+
+.header-botton-side {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 4rem;
+
+}
+
+nav{
+    position: absolute;
+    background: #2c2c2c;
+    width: 100%;
+    top: 46px;
+    display: none;
+
+}
+
+.show-menu nav{
+    display: block;
+}
+
+nav ul{
+    flex-direction: column;
+}
+
+nav ul li{
+    text-align: center;
+    padding: 0.8rem;
+    font-size: 1rem;
+
+}
+
+
+}
+
+
+
+/*header*/
