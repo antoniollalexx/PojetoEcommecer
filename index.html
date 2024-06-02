@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AlexxStores</title>
     <link rel="stylesheet" href="styles/stylesGlobal.css"/>
+    
 </head>
 <body>
     <div class="navbar show-menu">
@@ -44,13 +45,35 @@
         </div> 
     </header>
 
+    <!-- Main Content -->
+
+    <main>
+        <div class="gray-background">
+            <div class="page-inner-content">
+                <div class="cols cols-3">
+                    <img src="/images/products/product-1.png" alt="">
+                    <img src="/images/products/product-2.png" alt="">
+                    <img src="/images/products/product-3.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="page-inner-contant">
+                <h3 class="section-title">Produtos Selecionados</h3>
+                <div class="subtitle-underline"></div>
+                <div></div>
+            </div>
+        </div>
+    </main>
+
     <script>
             const navbar = document.querySelector(".navbar");
-            const menuButton = document.querySelector(".menu-button");
+            const menuButton = document.querySelector(".menu-botton");
 
             menuButton.addEventListener('click', () => {
                 navbar.classList.toggle("show-menu")
-            })
+            });
 
     </script>
 
