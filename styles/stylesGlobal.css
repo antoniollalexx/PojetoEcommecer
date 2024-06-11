@@ -209,3 +209,9 @@ nav ul li{
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
 }
+
+.cols3 img:hover {
+    transform: translateY(-5px); 
+    transition: all 0.2s;
+    font-weight: bold;
+}
