@@ -216,3 +216,25 @@ nav ul li{
     font-weight: bold;
 }
 
+
+.cols-4{
+    grid-template-columns: repeat(3, 25%);
+    gap: 25px;
+    
+    
+   
+}
+.cols-4 img{
+    height: 260px;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+
+.product  p {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+}
