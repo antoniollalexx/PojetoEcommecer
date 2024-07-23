@@ -261,6 +261,11 @@ main{
     
 }
 
+.product-name span{
+    color:green;
+    font-size: 1.3rem;
+}
+
 .rate{
     color:#0084ff;
     font-size: 1.3rem;
