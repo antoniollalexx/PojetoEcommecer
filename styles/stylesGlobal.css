@@ -214,9 +214,11 @@ main{
     gap: 1rem;
 }
 
-.cols3 img{
+.cols-4 img{
     max-width: 100%;
 }
+
+
 
 .cols-4{
     grid-template-columns: repeat(4,1fr);
