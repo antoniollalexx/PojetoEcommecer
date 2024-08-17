@@ -83,7 +83,7 @@ nav ul li:hover {
 }
 
 header {
-    background-image: radial-gradient(#fff,#c7c7c7);
+    background-image: radial-gradient(#ffffff,#5e5c5c);
 }
 
 .header-botton-side {
@@ -275,4 +275,15 @@ main{
 
 .product-price span{
     font-weight: 600;
+}
+
+.exclusive-container {
+    color:#ffffff;
+    flex-direction: row-reverse;
+    padding: 5rem 1rem;
+}
+
+.exclusive-container img{
+    max-width: 500px;
+    
 }
