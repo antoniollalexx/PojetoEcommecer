@@ -276,3 +276,13 @@ main{
 .product-price span{
     font-weight: 600;
 }
+
+.exclusive-container {
+    color:#fff;
+    flex-direction: row-reverse;
+    padding: 5rem 1rem;
+}
+
+.exclusive-container img {
+    max-width: 500px;
+}
