@@ -209,7 +209,7 @@ main{
     padding: 4rem 1rem;
 }
 
-.cols3{
+.cols-3{
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
 }
@@ -286,3 +286,28 @@ main{
 .exclusive-container img {
     max-width: 500px;
 }
+
+/*  Media querie  */
+
+@media (max-width: 800px){
+    .section-title{
+        font-size: 1rem;
+    }
+    .cols-3{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    .cols-4{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .product-name, .product-price, .rate {
+        max-height: 1rem;
+        overflow: hidden;
+        font-size: 0.8rem;
+    }
+
+}
+
+/*  Main contat*/
