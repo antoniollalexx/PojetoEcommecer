@@ -83,7 +83,7 @@ nav ul li:hover {
 }
 
 header {
-    background-image: radial-gradient(#fff,#c7c7c7);
+    background-image: radial-gradient(#ffffff,#5e5c5c);
 }
 
 .header-botton-side {
@@ -278,11 +278,21 @@ main{
 }
 
 .exclusive-container {
+<<<<<<< HEAD
     color:#fff;
+=======
+    color:#ffffff;
+>>>>>>> 2ea4aa3eea71d91e81bfbf86b35561ab46cfd67b
     flex-direction: row-reverse;
     padding: 5rem 1rem;
 }
 
+<<<<<<< HEAD
 .exclusive-container img {
     max-width: 500px;
+=======
+.exclusive-container img{
+    max-width: 500px;
+    
+>>>>>>> 2ea4aa3eea71d91e81bfbf86b35561ab46cfd67b
 }
