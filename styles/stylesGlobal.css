@@ -278,21 +278,11 @@ main{
 }
 
 .exclusive-container {
-<<<<<<< HEAD
     color:#fff;
-=======
-    color:#ffffff;
->>>>>>> 2ea4aa3eea71d91e81bfbf86b35561ab46cfd67b
     flex-direction: row-reverse;
     padding: 5rem 1rem;
 }
 
-<<<<<<< HEAD
 .exclusive-container img {
     max-width: 500px;
-=======
-.exclusive-container img{
-    max-width: 500px;
-    
->>>>>>> 2ea4aa3eea71d91e81bfbf86b35561ab46cfd67b
 }
